@@ -43,7 +43,7 @@ EOF
 export DEBIAN_FRONTEND=noninteractive
 
 # install packages
-sudo apt install -y bash-completion preload xterm git stow xorg i3 pulseaudio pulseaudio-module-bluetooth pamix tmux xclip curl htop rfkill policykit-1-gnome maim build-essential unzip
+sudo apt install -y ntp bash-completion preload xterm git stow xorg i3 pulseaudio pulseaudio-module-bluetooth pamix tmux xclip curl htop rfkill policykit-1-gnome maim build-essential unzip
 
 # setup dotfiles
 rm ~/.bashrc ~/.profile ~/.bash_logout

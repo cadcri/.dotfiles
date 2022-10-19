@@ -1,0 +1,23 @@
+! XTERM
+
+! activate utf-8
+XTerm*locale: true 
+
+! turn off the borders
+Xterm*borderWidth: 0
+
+! put screen black
+XTerm*reverseVideo: on
+
+! activate alt key
+XTerm*metaSendsEscape: true
+
+XTerm*BorderWidth: 0
+
+XTerm*selectToClipboard: true
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+
+! XTerm*faceName: JetBrainsMono Nerd Font Mono:style=Regular
+XTerm*faceSize: 19

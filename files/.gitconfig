@@ -1,0 +1,9 @@
+[user]
+	email = andre.rodrigues.dev@gmail.com
+	name = acr
+[init]
+	defaultBranch = main
+[alias]
+	a = add .
+	c = commit -am
+	p = push

@@ -10,20 +10,8 @@ sudo update-grub
 sudo tee <<EOF /etc/systemd/logind.conf 1> /dev/null
 [Login]
 HandleLidSwitch=hibernate
-HandlePowerKey=hibernate
+HandlePowerKey=hibernate # do nothing on regolith
 EOF
-
-# enable vsync on intel drivers
-sudo tee <<EOF /etc/X11/xorg.conf.d/20-intel.conf 1> /dev/null
-Section "Device"
-   Identifier "Intel Graphics"
-   Driver "intel"
-   Option "AccelMethod"  "sna"
-   Option "TearFree" "true"
-   Option "DRI" "3"
-EndSection
-EOF
-
 
 #####
 
@@ -31,20 +19,14 @@ EOF
 export DEBIAN_FRONTEND=noninteractive
 
 # install packages
-sudo apt install -y ntp bash-completion preload xterm git stow tmux xclip curl htop rfkill maim build-essential unzip
+sudo apt install -y ntp bash-completion preload git stow tmux xclip curl htop rfkill build-essential unzip vlc nvim
 
 # setup dotfiles
 rm ~/.bashrc ~/.profile ~/.bash_logout
 mkdir ~/.config
 stow files
 
-# create folder for screenshots maim
-mkdir -p ~/pictures/screenshots
-
 # install neovim 
-curl -LO https://github.com/neovim/neovim/releases/download/v0.7.2/nvim-linux64.deb
-sudo apt install -y ./nvim-linux64.deb
-rm ./nvim-linux64.deb
 curl -Lo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -63,7 +45,4 @@ sudo systemctl disable --now docker containerd
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
 sudo apt install -y ./minikube_latest_amd64.deb
 rm ./minikube_latest_amd64.deb
-
-sudo apt install -y network-manager
-
 

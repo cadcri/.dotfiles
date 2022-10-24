@@ -1,0 +1,2 @@
+setxkbmap -option "ctrl:swapcaps"
+regolith.look.path: /usr/share/regolith-look/blackhole

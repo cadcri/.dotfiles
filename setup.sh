@@ -6,18 +6,6 @@
 sudo sed -i -E 's/GRUB_TIMEOUT=([[:digit:]]+)/GRUB_TIMEOUT=0/' /etc/default/grub
 sudo update-grub
 
-# Enable tab to click, double tab to center click and triple tap for left click
-sudo mkdir -p /etc/X11/xorg.conf.d
-sudo tee <<EOF /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null
-Section "InputClass"
-	Identifier "touchpad"
-	MatchIsTouchpad "on"
-	Driver "libinput"
-	Option "Tapping" "on"
-	Option "TappingButtonMap" "lmr"
-EndSection
-EOF
-
 # enable hibernate on lid close and button press
 sudo tee <<EOF /etc/systemd/logind.conf 1> /dev/null
 [Login]

@@ -5,7 +5,7 @@ wget -qO - https://regolith-desktop.org/regolith.key | \
 gpg --dearmor | sudo tee /usr/share/keyrings/regolith-archive-keyring.gpg > /dev/null
 
 echo deb "[arch=amd64 signed-by=/usr/share/keyrings/regolith-archive-keyring.gpg] \
-https://regolith-desktop.org/release-debian-bullseye-amd64 debian main" | \
+https://regolith-desktop.org/release-debian-bullseye-amd64 bullseye main" | \
 sudo tee /etc/apt/sources.list.d/regolith.list
 
 sudo apt update

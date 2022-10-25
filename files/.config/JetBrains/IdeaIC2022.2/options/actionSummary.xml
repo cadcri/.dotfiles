@@ -1,19 +1,136 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="2" l="1666732818538" />
+    </e>
+    <e n="$Cut">
+      <i c="1" l="1666730842081" />
+    </e>
+    <e n="$Paste">
+      <i c="1" l="1666730844480" />
+    </e>
+    <e n="ActivateBookmarksToolWindow">
+      <i c="6" l="1666731987188" />
+    </e>
+    <e n="ActivateCommitToolWindow">
+      <i c="7" l="1666731509942" />
+    </e>
+    <e n="ActivateDebugToolWindow">
+      <i c="2" l="1666730631956" />
+    </e>
+    <e n="ActivateFindToolWindow">
+      <i c="2" l="1666730628463" />
+    </e>
+    <e n="ActivateProblemsViewToolWindow">
+      <i c="2" l="1666730633446" />
+    </e>
     <e n="ActivateProjectToolWindow">
-      <i c="46" l="1666677825642" />
+      <i c="103" l="1666732815026" />
+    </e>
+    <e n="ActivateRunToolWindow">
+      <i c="2" l="1666730630914" />
+    </e>
+    <e n="ActivateServicesToolWindow">
+      <i c="2" l="1666730635368" />
+    </e>
+    <e n="ActivateStructureToolWindow">
+      <i c="30" l="1666730634297" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="2" l="1666729245549" />
+    </e>
+    <e n="ActivateVersionControlToolWindow">
+      <i c="2" l="1666730637717" />
+    </e>
+    <e n="CheckinProject">
+      <i c="2" l="1666731503107" />
+    </e>
+    <e n="CodeCleanup">
+      <i c="1" l="1666729212466" />
     </e>
     <e n="EditorBackSpace">
-      <i c="17" l="1666677174145" />
+      <i c="27" l="1666732680656" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="1" l="1666730717885" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1666730703673" />
+    </e>
+    <e n="EditorDelete">
+      <i c="1" l="1666732409383" />
+    </e>
+    <e n="EditorDown">
+      <i c="7" l="1666732125645" />
+    </e>
+    <e n="EditorEnter">
+      <i c="16" l="1666732788617" />
+    </e>
+    <e n="EditorJoinLines">
+      <i c="4" l="1666732128100" />
+    </e>
+    <e n="EditorRight">
+      <i c="1" l="1666731775352" />
+    </e>
+    <e n="EditorUp">
+      <i c="6" l="1666732124936" />
+    </e>
+    <e n="GotoClass">
+      <i c="1" l="1666729514289" />
     </e>
     <e n="Help.KeymapReference">
       <i c="1" l="1666672144247" />
     </e>
+    <e n="HideActiveWindow">
+      <i c="1" l="1666730149784" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="1" l="1666732171954" />
+    </e>
+    <e n="IdeaVim.ReloadVimRc.reload">
+      <i c="6" l="1666732710516" />
+    </e>
+    <e n="NewClass">
+      <i c="3" l="1666730669585" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1666730823878" />
+    </e>
+    <e n="NewElement">
+      <i c="6" l="1666730814191" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="4" l="1666732659425" />
+    </e>
+    <e n="QuickImplementations">
+      <i c="1" l="1666732435682" />
+    </e>
+    <e n="ReformatCode">
+      <i c="2" l="1666731780219" />
+    </e>
+    <e n="SelectIn">
+      <i c="3" l="1666730140359" />
+    </e>
+    <e n="SelectNextOccurrence">
+      <i c="10" l="1666731666489" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="2" l="1666731622309" />
+    </e>
     <e n="ShowSettings">
-      <i c="3" l="1666677791103" />
+      <i c="10" l="1666732835484" />
     </e>
     <e n="Stop">
       <i c="1" l="1666676393478" />
+    </e>
+    <e n="Switcher">
+      <i c="18" l="1666730916805" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="100" l="1666738706078" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="110" l="1666738699555" />
     </e>
     <e n="WelcomeScreen.Configure.Import">
       <i c="1" l="1666672185865" />
@@ -24,14 +141,32 @@
     <e n="WelcomeScreen.OpenProject">
       <i c="1" l="1666676932630" />
     </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemeActions$ResetAction">
+      <i c="1" l="1666731720835" />
+    </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
+      <i c="1" l="1666731719255" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerConfigurable$InstalledSearchOptionAction">
+      <i c="2" l="1666731266142" />
+    </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
       <i c="1" l="1666677413794" />
     </e>
     <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
-      <i c="12" l="1666677857282" />
+      <i c="50" l="1666732812274" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="1" l="1666677519844" />
+      <i c="2" l="1666729459196" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="15" l="1666731823453" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
+      <i c="1" l="1666731044869" />
+    </e>
+    <e n="com.intellij.openapi.roots.ui.configuration.actions.ToggleSourcesStateAction">
+      <i c="2" l="1666729421140" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
       <i c="5" l="1666676374615" />
@@ -39,14 +174,35 @@
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
       <i c="11" l="1666676946610" />
     </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1666730975618" />
+    </e>
     <e n="com.intellij.ui.CommonActionsPanel$AddButton">
       <i c="2" l="1666677956138" />
     </e>
     <e n="com.intellij.ui.dsl.builder.impl.SegmentedButtonAction">
       <i c="7" l="1666677162641" />
     </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectNextAction">
+      <i c="12" l="1666731795970" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectPreviousAction">
+      <i c="12" l="1666731797063" />
+    </e>
+    <e n="com.maddyhome.idea.vim.extension.nerdtree.NerdTree$NerdDispatcher">
+      <i c="123" l="1666738706077" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$AppendToIdeaVimRcAction">
+      <i c="1" l="1666732059007" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
+      <i c="1" l="1666732061012" />
+    </e>
     <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$2">
-      <i c="1" l="1666677859717" />
+      <i c="2" l="1666732802371" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="42" l="1666732704279" />
     </e>
   </component>
 </application>

@@ -41,27 +41,29 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
-    "InstalledPluginsSearchHistory": "vim",
-    "MarketplacePluginsSearchHistory": "/sortBy:downloads\nvim",
+    "InstalledPluginsSearchHistory": "/enabled\n/tag:Keymap\nvim",
+    "KEYMAP": "tabs\nleft\nright\ndown\nup",
+    "MarketplacePluginsSearchHistory": "/tag:Keymap\n/sortBy:downloads\nvim",
     "NewProjectWizard.gitState": "true",
     "NonModalCommitCustomization.IsApplied": "true",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
     "SettingsSearchHistory": "sound\njdk",
-    "appcds.runOnSecondStart": "IC-222.4345.14-026d2597c12db07f670133ed77ea37dcfc3ad792f4e72aa43f47d9e103624e33",
+    "appcds.runOnSecondStart": "IC-222.4345.14-8a6bfb7d262dbb4f492b91b35e8d4324415e3ee0a3eafbc144922fe96b83c193",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IC-222.4345.14",
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
     "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
     "defaultJdkConfigured": "true",
     "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
     "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
     "defaultpackageserviceconfig.updated.ts": "1666677413359",
     "eclipse.projects.detected": "",
     "file.gist.reindex.count": "1",
-    "fileTypeChangedCounter": "1",
+    "fileTypeChangedCounter": "2",
     "fontSizeToResetConsole": "13.0",
     "fontSizeToResetEditor": "13.0",
     "gotit.previous.run": "IC-222.4345.14",
@@ -82,10 +84,13 @@
   "keyToStringList": {
     "fileTypeDetectors": [
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
-      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
-      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
       "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
     ]
   }
 }]]></component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="test-history" project-path="$USER_HOME$/IdeaProjects/test" last-access-time="1666729235502" />
+    </command-history-files>
+  </component>
 </application>

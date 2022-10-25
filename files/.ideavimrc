@@ -1,2 +1,6 @@
 imap jj <Esc>
 set timeoutlen=1000
+
+
+set visualbell
+set noerrorbells

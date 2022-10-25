@@ -1,16 +1,52 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="ActivateProjectToolWindow">
+      <i c="46" l="1666677825642" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="17" l="1666677174145" />
+    </e>
     <e n="Help.KeymapReference">
       <i c="1" l="1666672144247" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1666677791103" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1666676393478" />
     </e>
     <e n="WelcomeScreen.Configure.Import">
       <i c="1" l="1666672185865" />
     </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="5" l="1666677157849" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1666676932630" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1666677413794" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="12" l="1666677857282" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1666677519844" />
+    </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
-      <i c="3" l="1666672115031" />
+      <i c="5" l="1666676374615" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
-      <i c="4" l="1666665876941" />
+      <i c="11" l="1666676946610" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="2" l="1666677956138" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.impl.SegmentedButtonAction">
+      <i c="7" l="1666677162641" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$2">
+      <i c="1" l="1666677859717" />
     </e>
   </component>
 </application>

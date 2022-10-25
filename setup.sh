@@ -14,7 +14,7 @@ EOF
 
 # install packages
 sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload docker.io gimp
-sudo snap install --classic intellij-idea-community android-studio
+sudo snap install --classic intellij-idea-community android-studio code
 sudo snap install --beta steam 
 sudo snap remove firefox
 
@@ -34,5 +34,4 @@ sudo systemctl disable --now docker containerd
 rm ~/.{bashrc,profile,bash_logout}
 rmdir ~/{Desktop,Documents,Downloads,Music,Pictures,Public,Templates,Videos}
 mkdir ~/{.config,desktop,documents,downloads,pictures,public,videos}
-cd ~/.dotfiles && stow files
-
+cd ~/.dotfiles && stow files && dconf load / < dconf-settings.ini

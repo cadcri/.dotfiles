@@ -13,7 +13,7 @@ EOF
 # export DEBIAN_FRONTEND=noninteractive
 
 # install packages
-sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload docker.io gimp gnome-tweaks
+sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload docker.io gimp gnome-tweaks 
 sudo snap install --classic intellij-idea-community android-studio code
 sudo snap install --beta steam 
 sudo snap remove firefox
@@ -24,6 +24,12 @@ sudo snap remove firefox
 	 -o minikube.deb "https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb" \
 	 -o chrome.deb "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 sudo apt install -y /tmp/*.deb
+
+wget -O gnome-shell-extension-installer "https://github.com/brunelli/gnome-shell-extension-installer/raw/master/gnome-shell-extension-installer"
+chmod +x gnome-shell-extension-installer
+sudo mv gnome-shell-extension-installer /usr/bin/
+gnome-shell-extension-installer 744
+gnome-shell-extension-installer 744
 
 # setup docker and kubernetes
 sudo usermod -aG docker $USER && newgrp docker

@@ -12,6 +12,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2Gemv0LJaxkgleppagiOHehWrPW">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
         <entry key="Default (Template) Project">
           <value>
             <ProjectPluginTracker />
@@ -40,20 +45,50 @@
   </component>
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
+    "AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "0",
+    "AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "true",
+    "AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR": "false",
+    "BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "1",
+    "BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "false",
+    "BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR": "true",
     "CWM_LOGGING_VERSION": "1",
-    "InstalledPluginsSearchHistory": "/enabled\n/tag:Keymap\nvim",
-    "KEYMAP": "tabs\nleft\nright\ndown\nup",
-    "MarketplacePluginsSearchHistory": "/tag:Keymap\n/sortBy:downloads\nvim",
+    "InstalledPluginsSearchHistory": "/enabled\ngit\ngi\ng\n/tag:Keymap",
+    "KEYMAP": "terminal\nfocus ed\nfocus\ndock\nfocus to editor",
+    "MarketplacePluginsSearchHistory": "tmux\n/tag:Keymap\n/sortBy:downloads\nvim",
     "NewProjectWizard.gitState": "true",
     "NonModalCommitCustomization.IsApplied": "true",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
-    "SettingsSearchHistory": "sound\njdk",
-    "appcds.runOnSecondStart": "IC-222.4345.14-8a6bfb7d262dbb4f492b91b35e8d4324415e3ee0a3eafbc144922fe96b83c193",
+    "SettingsSearchHistory": "terminal\ndistrac\nsound\njdk",
+    "appcds.runOnSecondStart": "IC-222.4345.14-c2626dfd0014b3688c65c5321b87f0b1676056a0dcb3be51e657dc745459a0fc",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IC-222.4345.14",
+    "com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0": "300",
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
     "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
     "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
@@ -77,7 +112,7 @@
     "jdk.selected.JAVA_MODULE": "graalvm-ce-11",
     "kotlin.plugin.releaseDate": "222-1.7.20-release-201-IJ4167.29:2022-09-29",
     "previousColorScheme": "_@user_One Dark",
-    "project.wizard.group": "newWizard.com.intellij.ide.wizard.NewProjectBuilder",
+    "project.wizard.group": "newWizard.org.jetbrains.idea.maven.wizards.archetype.MavenArchetypeNewProjectWizard$Builder",
     "registry.to.advanced.settings.migration.build": "IC-222.4345.14",
     "tasks.pass.word.conversion.enforced": "true"
   },
@@ -90,7 +125,7 @@
 }]]></component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="test-history" project-path="$USER_HOME$/IdeaProjects/test" last-access-time="1666729235502" />
+      <command-history-file filename="banking app-history1" project-path="$USER_HOME$/IdeaProjects/test" last-access-time="1666757046184" />
     </command-history-files>
   </component>
 </application>

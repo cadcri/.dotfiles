@@ -55,7 +55,7 @@
       <i c="11" l="1666754720173" />
     </e>
     <e n="CloseProject">
-      <i c="1" l="1666757529663" />
+      <i c="2" l="1666757936285" />
     </e>
     <e n="CodeCleanup">
       <i c="1" l="1666729212466" />
@@ -178,7 +178,7 @@
       <i c="1" l="1666752714039" />
     </e>
     <e n="Run">
-      <i c="2" l="1666757462508" />
+      <i c="3" l="1666757898996" />
     </e>
     <e n="SaveAll">
       <i c="1" l="1666743867182" />
@@ -382,7 +382,7 @@
       <i c="1" l="1666755340361" />
     </e>
     <e n="editRunConfigurations">
-      <i c="4" l="1666757808799" />
+      <i c="5" l="1666757904767" />
     </e>
     <e n="org.jetbrains.plugins.terminal.action.RenameTerminalSessionAction">
       <i c="1" l="1666753113780" />

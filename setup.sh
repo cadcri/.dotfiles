@@ -13,7 +13,7 @@ EOF
 # export DEBIAN_FRONTEND=noninteractive
 
 # install packages
-sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload docker.io gimp gnome-tweaks 
+sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload docker.io gimp gnome-tweaks qbittorrent
 sudo snap install --classic intellij-idea-community android-studio code
 sudo snap install --beta steam 
 sudo snap remove firefox

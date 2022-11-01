@@ -17,6 +17,26 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2Gg6Nd4vEX75QYd9erIBXykhxYo">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GgAc14SzTKgTS6VPtXOwa5edFD">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GikzFKpuZOiED3T1yJlaRsV2wK">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GiozhRepFepOuFkKST04ZqhuJK">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
         <entry key="Default (Template) Project">
           <value>
             <ProjectPluginTracker />
@@ -28,12 +48,12 @@
   <component name="JdkInstallerHistory">
     <option name="installedItems">
       <installed-jdk>
-        <option name="fullText" value="GraalVM Community Edition 11" />
-        <option name="installDir" value="$USER_HOME$/.jdks/graalvm-ce-11" />
-        <option name="javaHomeDir" value="$USER_HOME$/.jdks/graalvm-ce-11" />
-        <option name="sha256" value="882363c75d1b1782a48bbf7dd8b155ab231b0957fd5885941376d90b69f21b9e" />
-        <option name="url" value="https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java11-linux-amd64-22.2.0.tar.gz" />
-        <option name="versionText" value="11" />
+        <option name="fullText" value="IBM Semeru (AdoptOpenJDK OpenJ9) 1.8.0_345" />
+        <option name="installDir" value="$USER_HOME$/.jdks/semeru-1.8.0_345" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/semeru-1.8.0_345" />
+        <option name="sha256" value="b748ef07a800b4f12ade9337e4f3e42ee5207e57e688367ab0dd978ebd1876ea" />
+        <option name="url" value="https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u345-b01_openj9-0.33.1/ibm-semeru-open-jdk_x64_linux_8u345b01_openj9-0.33.1.tar.gz" />
+        <option name="versionText" value="1.8.0_345" />
       </installed-jdk>
     </option>
   </component>
@@ -74,17 +94,20 @@
     "BEFORE.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
     "BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR": "true",
     "CWM_LOGGING_VERSION": "1",
-    "InstalledPluginsSearchHistory": "/enabled\ngit\ngi\ng\n/tag:Keymap",
-    "KEYMAP": "terminal\nfocus ed\nfocus\ndock\nfocus to editor",
-    "MarketplacePluginsSearchHistory": "tmux\n/tag:Keymap\n/sortBy:downloads\nvim",
+    "ExpandBeforeRunStepsPanel": "true",
+    "InstalledPluginsSearchHistory": "/tag:Navigation\ngototabs\ngit\n/enabled\ngi",
+    "KEYMAP": "dock pin\nquick\nshow comm\nopen in terminal\nfocus edi",
+    "MarketplacePluginsSearchHistory": "gototabs\ngit\ntmux\n/tag:Keymap\n/sortBy:downloads",
     "NewProjectWizard.gitState": "true",
     "NonModalCommitCustomization.IsApplied": "true",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
-    "SettingsSearchHistory": "terminal\ndistrac\nsound\njdk",
-    "appcds.runOnSecondStart": "IC-222.4345.14-c2626dfd0014b3688c65c5321b87f0b1676056a0dcb3be51e657dc745459a0fc",
+    "SHELLCHECK.PATH": "/home/basto/.local/share/JetBrains/IdeaIC2022.2/Shell Script/shellcheck",
+    "SettingsSearchHistory": "git\nmouse over\ntooltip\njavadoc\ncode completion",
+    "appcds.runOnSecondStart": "IC-222.4345.14-c07634b634dc82f6e4eaf218c33c43a71742564b335759ed385a72f64bc091d3",
     "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IC-222.4345.14",
@@ -92,31 +115,41 @@
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
     "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
     "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "decompiler.legal.notice.accepted": "true",
     "defaultJdkConfigured": "true",
     "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
     "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
     "defaultpackageserviceconfig.updated.ts": "1666677413359",
     "eclipse.projects.detected": "",
-    "file.gist.reindex.count": "1",
-    "fileTypeChangedCounter": "2",
+    "file.gist.reindex.count": "5",
+    "fileTypeChangedCounter": "3",
     "fontSizeToResetConsole": "13.0",
     "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.empty.project.create.file": "1",
     "gotit.previous.run": "IC-222.4345.14",
     "ide.memory.adjusted": "true",
     "ide.updates.previous.build.number": "IC-222.4345.14",
-    "ideavim.statistics.timestamp": "1666677407925",
+    "ideavim.statistics.timestamp": "1666917476564",
     "ift.idea.onboarding.feedback.proposed": "true",
     "ift.learning.panel.opened.in": "222.4345.14",
     "input.method.disabler.muted": "true",
     "installed.kotlin.plugin.version": "222-1.7.20-release-201-IJ4167.29",
     "jdk.selected.JAVA_MODULE": "graalvm-ce-11",
     "kotlin.plugin.releaseDate": "222-1.7.20-release-201-IJ4167.29:2022-09-29",
+    "last_opened_file_path": "/home/basto/documents/OTT_Streaming_Service",
     "previousColorScheme": "_@user_One Dark",
     "project.wizard.group": "newWizard.org.jetbrains.idea.maven.wizards.archetype.MavenArchetypeNewProjectWizard$Builder",
     "registry.to.advanced.settings.migration.build": "IC-222.4345.14",
+    "settings.code.style.selected.tab.JAVA": "JavaDoc",
     "tasks.pass.word.conversion.enforced": "true"
   },
   "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/basto/IdeaProjects/Atm Manager",
+      "/home/basto/documents/OTT_Streaming_Service/ProgEx/Java",
+      "/home/basto/documents/OTT_Streaming_Service/run.sh",
+      "/home/basto/documents/OTT_Streaming_Service"
+    ],
     "fileTypeDetectors": [
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
       "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
@@ -125,6 +158,9 @@
 }]]></component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
+      <command-history-file filename="Atm Manager-history" project-path="$USER_HOME$/IdeaProjects/Atm Manager" last-access-time="1666917476770" />
+      <command-history-file filename="scratch-history" project-path="$USER_HOME$/IdeaProjects/scratch" last-access-time="1666797920543" />
+      <command-history-file filename="OTT_Streaming_Service-history" project-path="$USER_HOME$/documents/OTT_Streaming_Service" last-access-time="1666880700985" />
       <command-history-file filename="banking app-history1" project-path="$USER_HOME$/IdeaProjects/test" last-access-time="1666757046184" />
     </command-history-files>
   </component>

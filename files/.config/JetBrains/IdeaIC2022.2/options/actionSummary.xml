@@ -16,7 +16,7 @@
       <i c="3" l="1666743079702" />
     </e>
     <e n="ActivateBookmarksToolWindow">
-      <i c="13" l="1666823888353" />
+      <i c="15" l="1667441807420" />
     </e>
     <e n="ActivateCommitToolWindow">
       <i c="18" l="1666841343616" />
@@ -25,13 +25,13 @@
       <i c="4" l="1666841289294" />
     </e>
     <e n="ActivateFindToolWindow">
-      <i c="7" l="1666823991828" />
+      <i c="9" l="1667441811571" />
     </e>
     <e n="ActivateProblemsViewToolWindow">
       <i c="6" l="1666841307505" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="351" l="1666844390098" />
+      <i c="354" l="1667441812504" />
     </e>
     <e n="ActivateRunToolWindow">
       <i c="9" l="1666841285634" />
@@ -85,7 +85,7 @@
       <i c="8" l="1666833777062" />
     </e>
     <e n="EditorBackSpace">
-      <i c="302" l="1666880183778" />
+      <i c="306" l="1667441214661" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="13" l="1666879774179" />
@@ -304,13 +304,13 @@
       <i c="1" l="1666840823751" />
     </e>
     <e n="ShowProjectStructureSettings">
-      <i c="9" l="1666833752946" />
+      <i c="10" l="1667441344751" />
     </e>
     <e n="ShowRecentTests">
       <i c="1" l="1666841589768" />
     </e>
     <e n="ShowSettings">
-      <i c="56" l="1666917740001" />
+      <i c="58" l="1667441771045" />
     </e>
     <e n="SplitVertically">
       <i c="10" d="1" l="1666841184063" k="1666841184063" />
@@ -382,7 +382,7 @@
       <i c="1" l="1666672185865" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="8" l="1666799874066" />
+      <i c="9" l="1667440890331" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1666879041287" />
@@ -397,7 +397,7 @@
       <i c="1" l="1666731720835" />
     </e>
     <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
-      <i c="2" l="1666754282801" />
+      <i c="4" l="1667441782421" />
     </e>
     <e n="com.intellij.execution.actions.CreateAction">
       <i c="2" l="1666843455535" />
@@ -451,7 +451,7 @@
       <i c="1" l="1666833726566" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="6" l="1666879312285" />
+      <i c="7" l="1667441269262" />
     </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
       <i c="4" l="1666833725019" />
@@ -463,7 +463,7 @@
       <i c="1" l="1666842937108" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="25" l="1666917387497" />
+      <i c="29" l="1667441476687" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddAbbreviationAction">
       <i c="1" l="1666754308601" />
@@ -499,13 +499,13 @@
       <i c="2" l="1666824010163" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
-      <i c="5" l="1666676374615" />
+      <i c="6" l="1667440639380" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
       <i c="11" l="1666676946610" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="3" l="1666823898785" />
+      <i c="4" l="1667441335109" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
       <i c="7" l="1666823827185" />

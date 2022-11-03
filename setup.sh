@@ -5,6 +5,8 @@
 # install packages
 sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload gimp gnome-tweaks qbittorrent
 sudo snap install --classic intellij-idea-community android-studio code
+sudo snap install --classic android-studio 
+sudo snap install --classic code
 sudo snap install --beta steam 
 sudo snap remove firefox
 

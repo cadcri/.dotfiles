@@ -3,8 +3,11 @@
     <e n="WelcomeScreen.CreateNewProject">
       <i c="1" l="1667451934330" />
     </e>
+    <e n="WelcomeScreen.ManageLicense">
+      <i c="1" l="1667454280427" />
+    </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
-      <i c="2" l="1667454055531" />
+      <i c="3" l="1667454276064" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
       <i c="2" l="1667451914470" />

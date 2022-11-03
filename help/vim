@@ -1,7 +1,0 @@
-zz - move current line to the middle of the screen
-(Careful with zz, if you happen to have Caps Lock on accidentally, you will save and exit vim!)
-zt - move current line to the top of the screen
-zb - move current line to the bottom of the screen
-
-Ctrl+Y → Move viewport down.
-Ctrl+E → Move viewport up (Extra lines)

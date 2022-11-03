@@ -3,7 +3,7 @@
 # SYSTEM CONFIG
 
 # install packages
-sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload gimp gnome-tweaks transmission 
+sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload gimp gnome-tweaks transmission chrome-gnome-shell
 sudo snap remove firefox
 
 # setup docker 

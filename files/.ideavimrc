@@ -1,11 +1,11 @@
 set visualbell
 set number
-set renumber
+set relativenumber
 
+" set clipboard shared
 set clipboard+=unnamed
-set clipboard+=ideaput
 
-""" Editing and Reloadinj the Config
+""" Editing and Reloading the Config
 nnoremap \e :e ~/.ideavimrc<CR>
 nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
 
@@ -15,10 +15,8 @@ imap jj <Esc>
 """ The Leader Key
 let mapleader=" "
 
-""" Distraction Free Mode
-nnoremap <c-z> :action ToggleDistractionFreeMode<CR>
-
 """ Navigation
+
 sethandler <C-k> a:ide
 sethandler <C-j> a:ide
 sethandler <C-2> a:ide

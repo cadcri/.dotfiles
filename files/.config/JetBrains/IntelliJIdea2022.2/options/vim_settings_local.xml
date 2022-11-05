@@ -1,0 +1,64 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">c2V0IHJlbnVtYmVy</entry>
+        <entry encoding="base64">c2V0IHJudW1iZXI=</entry>
+        <entry encoding="base64">c2V0IHJlbGxhdGl2ZW51bWJlcg==</entry>
+        <entry encoding="base64">c2V0IHJlbGF0aXZlbnVtYmVy</entry>
+        <entry encoding="base64">YWN0aW9uIElkZWFWaW0uUmVsb2FkVmltUmMucmVsb2Fk</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/IdeaProjects/untitled/pom.xml" timestamp="1667598968306">
+        <mark key="'" line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/.ideavimrc" timestamp="1667599463681">
+        <mark key="[" line="17" column="14" />
+        <mark key="]" line="18" column="0" />
+        <mark key="^" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="10" column="0" filename="$USER_HOME$/IdeaProjects/untitled/pom.xml" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">c2V0IGNsaXBib2FyZCs9aWRlYS1wdXQK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">c2V0IGNsaXBib2FyZCs9aWRlYS1wdXQK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">IiIiIERpc3RyYWN0aW9uIEZyZWUgTW9kZQpubm9yZW1hcCA8Yy16PiA6YWN0aW9uIFRvZ2dsZURpc3RyYWN0aW9uRnJlZU1vZGU8Q1I+Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">YWN0aW9uIElkZWFWaW0uUmVsb2FkVmltUmMucmVsb2Fk</text>
+      </register>
+      <register name="*" type="2">
+        <text encoding="base64">c2V0IGNsaXBib2FyZCs9aWRlYS1wdXQK</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">IyIiIA==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

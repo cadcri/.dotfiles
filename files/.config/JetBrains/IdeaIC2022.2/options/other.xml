@@ -1,0 +1,171 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="2Gc8C6nSHKmDaJBtcuQhjtw2Pvn">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GcAGYOCedehUwZxktie8nfWG0o">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2Gemv0LJaxkgleppagiOHehWrPW">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2Gg6Nd4vEX75QYd9erIBXykhxYo">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GgAc14SzTKgTS6VPtXOwa5edFD">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GikzFKpuZOiED3T1yJlaRsV2wK">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GiozhRepFepOuFkKST04ZqhuJK">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2H18SgbSjmZ0RxlI8AaqoiadaZX">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="Default (Template) Project">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="GraalVM Community Edition 19" />
+        <option name="installDir" value="$USER_HOME$/.jdks/graalvm-ce-19" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/graalvm-ce-19" />
+        <option name="sha256" value="ae9cb1afe327d49a8c049ab588090838e622d9d832b9a1c0523821a6f38d6b4d" />
+        <option name="url" value="https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.0/graalvm-ce-java19-linux-amd64-22.3.0.tar.gz" />
+        <option name="versionText" value="19" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+    <languageToProjectMap>
+      <entry key="JAVA" value="$USER_HOME$/.cache/JetBrains/IdeaIC2022.2/demo/IdeaLearningProject" />
+    </languageToProjectMap>
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "0",
+    "AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "true",
+    "AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR": "false",
+    "BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "1",
+    "BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "false",
+    "BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR": "true",
+    "CWM_LOGGING_VERSION": "1",
+    "ExpandBeforeRunStepsPanel": "true",
+    "InstalledPluginsSearchHistory": "idea\n/tag:Navigation\ngototabs\ngit\n/enabled",
+    "KEYMAP": "dock pin\nquick\nshow comm\nopen in terminal\nfocus edi",
+    "MarketplacePluginsSearchHistory": "idea\ngototabs\ngit\ntmux\n/tag:Keymap",
+    "NewProjectWizard.gitState": "true",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.se.text.search": "true",
+    "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+    "SHELLCHECK.PATH": "/home/basto/.local/share/JetBrains/IdeaIC2022.2/Shell Script/shellcheck",
+    "SettingsSearchHistory": "git\nmouse over\ntooltip\njavadoc\ncode completion",
+    "appcds.runOnSecondStart": "IC-222.4345.14-922df0c794b69b0f1d195a4c572274009db152020cedd93e06e2987409da516b",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IC-222.4345.14",
+    "com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0": "300",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
+    "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
+    "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
+    "defaultpackageserviceconfig.updated.ts": "1667441231067",
+    "eclipse.projects.detected": "",
+    "file.gist.reindex.count": "5",
+    "fileTypeChangedCounter": "4",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.empty.project.create.file": "1",
+    "gotit.previous.run": "IC-222.4345.14",
+    "ide.memory.adjusted": "true",
+    "ide.updates.previous.build.number": "IC-222.4345.14",
+    "ideavim.statistics.timestamp": "1667441235257",
+    "ift.idea.onboarding.feedback.proposed": "true",
+    "ift.learning.panel.opened.in": "222.4345.14",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "222-1.7.20-release-201-IJ4167.29",
+    "jdk.selected.JAVA_MODULE": "graalvm-ce-19",
+    "kotlin.plugin.releaseDate": "222-1.7.20-release-201-IJ4167.29:2022-09-29",
+    "last_opened_file_path": "/home/basto/documents/OTT_Streaming_Service",
+    "previousColorScheme": "_@user_Darcula",
+    "project.wizard.group": "newWizard.org.jetbrains.idea.maven.wizards.archetype.MavenArchetypeNewProjectWizard$Builder",
+    "registry.to.advanced.settings.migration.build": "IC-222.4345.14",
+    "settings.code.style.selected.tab.JAVA": "JavaDoc",
+    "tasks.pass.word.conversion.enforced": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/basto/IdeaProjects/Atm Manager",
+      "/home/basto/documents/OTT_Streaming_Service/ProgEx/Java",
+      "/home/basto/documents/OTT_Streaming_Service/run.sh",
+      "/home/basto/documents/OTT_Streaming_Service"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="risifours-history" project-path="$USER_HOME$/IdeaProjects/risifours" last-access-time="1667441339441" />
+    </command-history-files>
+  </component>
+</application>

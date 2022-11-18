@@ -2,80 +2,37 @@
 
 # SYSTEM CONFIG
 
-# skip grub menu
-sudo sed -i -E 's/GRUB_TIMEOUT=([[:digit:]]+)/GRUB_TIMEOUT=0/' /etc/default/grub
-sudo update-grub
-
-# Enable tab to click, double tab to center click and triple tap for left click
-sudo mkdir -p /etc/X11/xorg.conf.d
-sudo tee <<EOF /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null
-Section "InputClass"
-	Identifier "touchpad"
-	MatchIsTouchpad "on"
-	Driver "libinput"
-	Option "Tapping" "on"
-	Option "TappingButtonMap" "lmr"
-EndSection
-EOF
-
-# enable hibernate on lid close and button press
-sudo tee <<EOF /etc/systemd/logind.conf 1> /dev/null
-[Login]
-HandleLidSwitch=hibernate
-HandlePowerKey=hibernate
-EOF
-
-# enable vsync on intel drivers
-sudo tee <<EOF /etc/X11/xorg.conf.d/20-intel.conf 1> /dev/null
-Section "Device"
-   Identifier "Intel Graphics"
-   Driver "intel"
-   Option "AccelMethod"  "sna"
-   Option "TearFree" "true"
-   Option "DRI" "3"
-EndSection
-EOF
-
-
-#####
-
-# to not have screens asking for restart services
-export DEBIAN_FRONTEND=noninteractive
-
 # install packages
-sudo apt install -y ntp bash-completion preload xterm git stow xorg i3 pulseaudio pulseaudio-module-bluetooth pamix tmux xclip curl htop rfkill policykit-1-gnome maim build-essential unzip
+sudo apt install -y git stow tmux curl htop tree build-essential vlc neovim preload gimp gnome-tweaks transmission gnome-shell-extension-dash-to-panel
+sudo apt install -y menulibre
+sudo snap remove firefox
+
+# setup docker 
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+
+# install non apt/snap apps
+ curl -L --output-dir /tmp \
+	 -o discord.deb "https://discord.com/api/download?platform=linux&format=deb" \
+	 -o docker.deb "https://desktop.docker.com/linux/main/amd64/docker-desktop-4.13.1-amd64.deb" \
+	 -o chrome.deb "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" \
+ 	 -o lutris.deb "https://github.com/lutris/lutris/releases/download/v0.5.12-beta1/lutris_0.5.12_beta1_all.deb" \
+ 	 -o steam.deb "https://cdn.akamai.steamstatic.com/client/installer/steam.deb" \
+ 	 -o code.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" \
+ 	 -o jetbrains.tar.gz "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.26.4.13374.tar.gz"
+sudo apt install -y /tmp/*.deb
+tar xf /tmp/jetbrains.tar.gz -C /tmp
+/tmp/jetbrains/jetbrains-toolbox
+sudo apt remove --purge --assume-yes snapd
+rm -rf ~/snap/
+sudo rm -rf /var/cache/snapd/ 
 
 # setup dotfiles
-rm ~/.bashrc ~/.profile ~/.bash_logout
-mkdir ~/.config
-stow files
-
-# create folder for screenshots maim
-mkdir -p ~/pictures/screenshots
-
-# install neovim 
-curl -LO https://github.com/neovim/neovim/releases/download/v0.7.2/nvim-linux64.deb
-sudo apt install -y ./nvim-linux64.deb
-rm ./nvim-linux64.deb
-curl -Lo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-# install chrome
-curl -LO https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome-stable_current_amd64.deb
-rm ./google-chrome-stable_current_amd64.deb
-
-# install docker
-sudo apt install -y docker.io
-sudo usermod -aG docker $USER
-newgrp docker
-sudo systemctl disable --now docker containerd
-
-# install minikube
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
-sudo apt install -y ./minikube_latest_amd64.deb
-rm ./minikube_latest_amd64.deb
-
-sudo apt install -y network-manager
-
-
+rm ~/.{bashrc,profile,bash_logout}
+rmdir ~/{Desktop,Documents,Downloads,Music,Pictures,Public,Templates,Videos}
+mkdir ~/{.config,desktop,documents,downloads,pictures,public,videos}
+cd ~/.dotfiles && stow files && dconf load / < dconf-settings.ini
